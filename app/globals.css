@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-cormorant);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+:root {
+  color-scheme: light;
+  --background: oklch(0.98 0.006 90);
+  --foreground: oklch(0.21 0.01 90);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.21 0.01 90);
+  --primary: oklch(0.55 0.09 75);
+  --primary-foreground: oklch(1 0 0);
+  --border: oklch(0.9 0.015 90);
+  --input: oklch(0.9 0.015 90);
+  --ring: oklch(0.55 0.09 75);
+  --radius: 0.75rem;
+}
+
+* { @apply border-border outline-ring/50; }
+html { scroll-behavior: smooth; }
+body { @apply bg-background text-foreground; font-family: var(--font-inter), Arial, sans-serif; }
+.font-serif { font-family: var(--font-cormorant), Georgia, serif; }
+.eyebrow { @apply text-xs font-semibold uppercase tracking-[0.25em] text-[#a28355]; }
+.section-title { @apply mt-3 font-serif text-4xl leading-[1.05] md:text-5xl; }
+.section-title i { @apply font-normal text-[#b69255]; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
