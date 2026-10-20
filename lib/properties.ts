@@ -68,7 +68,7 @@ export const properties: Property[] = [
   },
   {
     id: 2,
-    title: 'Appartement vue mer — Sahloul',
+    title: 'Appartement lumineux — Sahloul',
     location: 'Sousse',
     type: 'Appartement',
     transaction: 'Vente',
@@ -78,19 +78,19 @@ export const properties: Property[] = [
     image: img('photo-1600566753190-17f0baa2a6c3'),
     featured: true,
     summary:
-      'Un appartement élégant tourné vers la mer, pensé pour une vie lumineuse entre Sousse et le rivage.',
+      'Un appartement élégant à Sahloul, lumineux et calme, dans un quartier résidentiel de Sousse.',
     description: [
-      'Au cœur de Sahloul, cet appartement de 145 m² déploie trois pièces baignées de lumière et une terrasse ouverte sur l’horizon. Les volumes sont calmes, les finitions soignées, et chaque pièce profite d’une orientation qui laisse entrer, le soir, la douceur de la côte.',
+      'Au cœur de Sahloul, cet appartement de 145 m² déploie trois pièces baignées de lumière et une terrasse ouverte sur le quartier. Les volumes sont calmes, les finitions soignées, et chaque pièce profite d’une orientation généreuse.',
       'Le séjour s’ouvre largement sur la terrasse, la cuisine est équipée et prête à vivre, et les deux chambres conservent le silence d’une résidence discrète. Une place de parking et un ascenseur complètent un quotidien simple et confortable.',
-      'Maison & Co l’a retenu pour la qualité de sa vue, la justesse de son agencement et le caractère serein de l’adresse — à quelques minutes des plages, des commerces et des axes vers Sousse.',
+      'Maison & Co l’a retenu pour la justesse de son agencement et le caractère serein de l’adresse — à quelques minutes des commerces, des écoles et des axes vers Sousse.',
     ],
     highlights: [
-      'Vue mer dégagée',
+      'Séjour lumineux',
       'Terrasse de 18 m²',
       'Cuisine équipée',
       'Résidence gardiennée',
       'Ascenseur et parking',
-      'Proche des plages',
+      'Quartier résidentiel',
     ],
     specs: [
       { label: 'Surface', value: '145 m²' },
@@ -109,7 +109,7 @@ export const properties: Property[] = [
       img('photo-1600585154526-990dced4db0d'),
     ],
     neighborhood:
-      'Sahloul est l’un des quartiers les plus recherchés de Sousse : résidentiel, aéré, et relié aussi bien au centre qu’au littoral. Écoles, cafés et promenade du bord de mer se rejoignent en quelques minutes, dans une atmosphère calme et familiale.',
+      'Sahloul est l’un des quartiers les plus recherchés de Sousse : résidentiel, aéré, et relié au centre-ville. Écoles, cafés et commerces se rejoignent en quelques minutes, dans une atmosphère calme et familiale.',
   },
   {
     id: 3,
